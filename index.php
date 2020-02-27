@@ -14,7 +14,7 @@
                 <div class="form-group">
                         <div>
                             <label for="firstName" class="col-sm-3 control-label">First Name</label>
-                            <div class="col-sm-9">
+                                <div class="col-sm-9"></div>
                                 <input type="text" id="firstName" placeholder="First Name" class="form-control" name="firstName" >
                                 <div class="valid-feedback">Valid</div>
                                 <div class="invalid-feedback">Please fill out this field.</div>
