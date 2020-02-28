@@ -61,9 +61,9 @@
                             </div>
                         <div class="form-group">
                             <label class="control-label col-sm-3">Gender</label>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-6">
                                         <label class="radio-inline">
                                             <input type="radio" id="femaleRadio" value="Female" name="optradio">Female
                                         </label>
@@ -106,8 +106,8 @@
                         <div class="form-group">
                             <label for="yearLevel" class="col-sm-3 control-label">Year Level</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="select1" class="form-control" name="yearlevel" >
-                                    <option></option>
+                                <select class="form-control" style="height:5%" id="select1" name="yearlevel" >
+                                    <option class="gray">Select Year Level</option>
                                     <option>1st Year</option>
                                     <option>2nd Year</option>
                                     <option>3rd Year</option>
@@ -121,8 +121,8 @@
                         <div class="form-group">
                             <label for="course" class="col-sm-3 control-label">Course</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="select1"  class="form-control" name="Course" >
-                                    <option></option>
+                                <select class="form-control" style="height:5%" id="select1"  name="Course" >
+                                    <option class="gray">Select Course</option>
                                     <option>B.S. in Automotive Mechanical Technology</option>
                                     <option>B.S. in Electrical and Technology Management</option>
                                     <option>B.S. in Electro-Mechanical Technology</option>
@@ -151,9 +151,9 @@
                                 <div class="valid-feedback">Valid</div>
                                 <div class="invalid-feedback">Please fill out this field.</div></div>
                         </div>
-                        <!-- /.form-group -->
+                        <!-- .form-group -->
                         <div class="form-group">
-                            <div class="col-sm-12">
+                            <div class="col-sm-9 float-right">
                                 <button type="submit" class="btn btn-primary btn-block">Register</button>
                             </div>
                         </div>
