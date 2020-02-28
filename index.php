@@ -11,11 +11,11 @@
 <div class="container">
     <form class="form-horizontal" role="form" class="was-validated" method="post" action="transactions/landingpage.php">
                 <h2>Registration Form</h2>
-                <div class="form-group">
-                        <div>
+                <div class="form-group"> 
+                        <div class="form-group">
                             <label for="firstName" class="col-sm-3 control-label">First Name</label>
-                                <div class="col-sm-9"></div>
-                                <input type="text" id="firstName" placeholder="First Name" class="form-control" name="firstName" >
+                            <div class="col-sm-9">
+                                <input type="text" id="firstName" placeholder="First Name" class="form-control" name="firstName">
                                 <div class="valid-feedback">Valid</div>
                                 <div class="invalid-feedback">Please fill out this field.</div>
                             </div>
